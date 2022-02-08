@@ -1,0 +1,19 @@
+{
+  "name": "@youla-dev/cra-vkma-template",
+  "version": "0.1.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript"
+  ],
+  "description": "A basic typescript CRA template for VK mini-apps.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "package": {
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.14.1",
+      "@testing-library/react": "^12.0.0",
+      "@testing-library/user-event": "^13.2.1",
+      "@types/jest": "^27.0.1",
+      "@types/node": "^16.7.13",
+      "@types/react": "^17.0.20",
+      "@types/react-dom": "^17.0.9",
+      "@vkontakte/icons": "1.132.0",
+      "@vkontakte/vk-bridge": "^2.4.8",
+      "@vkontakte/vk-miniapps-deploy": "^0.0.25",
+      "@vkontakte/vk-tunnel": "^0.1.0",
+      "@vkontakte/vkui": "^4.20.0",
+      "typescript": "^4.4.2",
+      "web-vitals": "^2.1.0"
+    },
+    "devDependencies": {
+      "eslint": "^7.11.0",
+      "prettier": "^2.4.1"
+    },
+    "scripts": {
+      "tunnel": "vk-tunnel --insecure=1 --http-protocol=http --ws-protocol=wss --host=localhost --port=3000"
+    },
+    "eslintConfig": {
+      "extends": ["react-app", "react-app/jest"]
+    }
+  }
+}
