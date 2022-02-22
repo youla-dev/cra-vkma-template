@@ -3,11 +3,11 @@
 ### Creating an App
 
 ```sh
-npx create-react-app my-app --template @youla-dev/cra-vkma-template
+npx create-react-app my-app --template @youla-dev/cra-template-vkma
 
 #or
 
-yarn create create-react-app my-app --template @youla-dev/cra-vka-template
+yarn create create-react-app my-app --template @youla-dev/cra-template-vkma
 ```
 
 ### Learn more
